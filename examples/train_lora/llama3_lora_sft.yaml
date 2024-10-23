@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: meta-llama/Meta-Llama-3-8B-Instruct
+model_name_or_path: codellama/CodeLlama-7b-hf
 
 ### method
 stage: sft
@@ -8,15 +8,15 @@ finetuning_type: lora
 lora_target: all
 
 ### dataset
-dataset: identity,alpaca_en_demo
-template: llama3
-cutoff_len: 1024
-max_samples: 1000
+dataset: output
+template: alpaca
+cutoff_len: 2048
+max_samples: 10000000
 overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-output_dir: saves/llama3-8b/lora/sft
+output_dir: saves/codellama_7b_hf/lora/sft
 logging_steps: 10
 save_steps: 500
 plot_loss: true
