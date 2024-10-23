@@ -1,6 +1,6 @@
 {
-  "output": {
-    "file_name": "output.json",
+  "yh_codellama": {
+    "file_name": "yh_codellama.json",
     "columns": {
       "prompt": "instruction",
       "response": "output"
