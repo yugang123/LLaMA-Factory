@@ -8,7 +8,7 @@ finetuning_type: lora
 lora_target: all
 
 ### dataset
-dataset: output
+dataset: yh_codellama
 template: alpaca
 cutoff_len: 2048
 max_samples: 10000000
