@@ -1,9 +1,9 @@
 {
   "output": {
-    "file_name": "output.json"
-  },
-  "columns": {
-    "prompt": "instruction",
-    "response": "output"
+    "file_name": "output.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
   }
 }
