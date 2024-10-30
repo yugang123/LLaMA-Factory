@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: deepseek-ai/deepseek-coder-6.7b-base
+model_name_or_path: deepseek-ai/deepseek-coder-1.3b-instruct
 
 ### method
 stage: sft
@@ -10,7 +10,7 @@ finetuning_type: full
 deepspeed: examples/deepspeed/ds_z3_config.json
 
 ### dataset
-dataset: efficoder
+dataset: output
 
 template: deepseekcoder
 cutoff_len: 2048
@@ -19,7 +19,7 @@ overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-output_dir: saves/final_sft_deepseek-coder-6.7b-base
+output_dir: saves/nopy_timecp_final_sft_deepseek-coder-1.3b-base
 
 logging_steps: 10
 save_steps: 500
